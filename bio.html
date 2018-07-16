@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- this is how you write a comment -->
+  <body bgcolor="#004466">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <script src="script.js"></script>
+</head>
+<body>
+<a href="secondpage.html">Click to go to second page!<a>
+<div><h1 align = "middle" id="title"> Dannia Ruiz Mata </h1></div>
+<button onclick="clickFunction()"; class="click" type="button">Enlarge</button>
+<button type="button" onclick="myFunction()">Set background color</button>
+
+<script>
+function myFunction() {
+    document.body.style.backgroundColor = "black";
+}
+</script>
+<h2> Bio: </h2>
+
+<h3>I am a rising senior at Phillip O. Berry Academy of Technology. I am in charge of Special Projects & Fundraising for Key Club. I am also a member of the National Honor Society. I am from Charlotte, NC but I live in Mint Hill. I enjoy coding and volunteering.</p>
+
+<div><h4><strong>Likes:</strong> I like good music, delicious food, riveting books, and exploring different parts of Charlotte.</h4>
+<h4><strong>Dislikes:</strong> I do not like injustice and unkind people.</h4></div>
+
+<div><h5><strong>Fun Fact:</strong> I have wanted to be a software developer since I was in 8th grade!</h5></div>
+
+<div><h5>Favorite Websites:</h5></div>
+<ul>
+<li><a href ="https://youtube.com/"target="_blank">Youtube</a> : I love watching different tutorials and comedic videos.</li>
+<li><a href ="https://www.instagram.com/"target="_blank">Instagram</a> : I like memes, news, and pretty pictures and on this website I see all of them.</li>
+<li><a href ="https://www.netflix.com/"target="_blank">Netflix</a> : I love watching movies or shows on this website when I have time.</li>
+</ul>
+
+<button  class="click"type="button" onclick="document.getElementById('demo').style.display='block'">Click here!</button>
+<h6 align ="middle" id="demo" style="display:none">My pet rabbit: Biscuit</h6>
+<div id="image_container">
+<button class="child" onclick="document.getElementById('myImage').src='IMG_2969.jpg'">Calm Bunny</button>
+
+<img class="child" id="myImage" src="IMG_2969.jpg" style="width:200px">
+
+<button class="child" onclick="document.getElementById('myImage').src='IMG_2345.jpg'">Funny Bunny</button>
+</div>
+</body>
+</html>
